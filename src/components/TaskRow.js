@@ -3,7 +3,7 @@ import React from "react";
 export const TaskRow = ({ task, toggleTask }) => {
   return (
     <tr>
-      <td>
+      <td className="d-flex justify-content-between">
         {task.name}
         <input
           type="checkbox"
